@@ -16,11 +16,12 @@ a{
     text-decoration: none;
 }
 
-/* Edición del ÍNdice */
+/* Edición del Índice */
 
 nav{
-    background: rgb(236, 191, 191);
+    background: rgb(255, 255, 255);
     width: 100%;
+    border-bottom: 1px black solid;
 }
 nav ul{
     text-align: center;
@@ -36,8 +37,12 @@ nav ul{
     font-size: 2em;
 }
 
-.nav__li:hover{
-    background-color: rgb(55, 55, 100);
+.nav__li:hover a{
+    transition: color .7s;
+}
+
+.nav__li:hover a{
+    color: purple;
 }
 
 /* Edición del main */

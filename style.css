@@ -8,7 +8,8 @@ body{
     background: url(sources/Images/Imágen_colegio.jpg);
     background-size: 100%;
     background-attachment: fixed;
-    margin-top: 94vh;
+    margin-top: 90vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
@@ -19,22 +20,21 @@ a{
 /* Edición del Índice */
 
 nav{
-    background: rgb(255, 255, 255);
-    width: 100%;
+    background: white;
     border-bottom: 1px black solid;
 }
 nav ul{
     text-align: center;
-    padding: 10px;
+    padding: 3vh 0;
 }
 .nav__li{
     display: inline;
+    padding: 20px;
     list-style: none;
-    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    color: black;
     font-size: 2em;
+    color: black;
 }
 
 .nav__li:hover a{

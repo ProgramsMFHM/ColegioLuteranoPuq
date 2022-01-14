@@ -66,18 +66,22 @@ h2{
     justify-content: space-around;
 }
 
-.galería a{
+.galería article{
+    width: 30%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .galería__imágen{
-    height: 150px;
+    height: 175px;
     object-fit: contain;
 }
 
 .galería__texto{
     text-align: center;
     padding: 5px;
+}
+
+.galería__video{
+    align-self: center;
 }

@@ -63,15 +63,21 @@ h2{
 /* Galerías */
 
 .galería{
-    width: 80vw;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+.galería article{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
 .galería__imágen{
-    height: 150px;
+    height: 175px;
+    object-fit: contain;
 }
 
 .galería__texto{

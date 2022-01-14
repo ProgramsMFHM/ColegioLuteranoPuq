@@ -60,15 +60,21 @@ h2{
 /* Galerías */
 
 .galería{
-    width: 80vw;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+.galería a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .galería__imágen{
     height: 150px;
+    object-fit: contain;
 }
 
 .galería__texto{

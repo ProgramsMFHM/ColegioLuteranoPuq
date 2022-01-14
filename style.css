@@ -20,8 +20,11 @@ a{
 /* Edición del Índice */
 
 nav{
-    background: white;
+    background: rgb(224, 224, 224);
     border-bottom: 1px black solid;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
 }
 nav ul{
     text-align: center;

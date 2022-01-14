@@ -78,3 +78,34 @@ h2{
     text-align: center;
     padding: 5px;
 }
+
+/* Tablas */
+
+.tabla{
+    width: 85%;
+    margin: auto;
+    border: black solid 2px;
+    border-collapse: collapse;
+}
+
+.tabla th{
+    background: #aaa;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px 40px;
+    border: black solid 2px;
+}
+
+.tabla td{
+    padding: 10px 40px;
+    border: black solid 2px;
+}
+
+.tabla tbody tr:nth-child(odd){
+    background: #ddd;
+}
+
+.tabla tbody td:hover{
+    background: #aaa;
+}

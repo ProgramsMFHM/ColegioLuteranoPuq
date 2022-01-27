@@ -6,8 +6,9 @@
 }
 body{
     background: url(sources/Images/Imágen_colegio.webp);
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
+    background-position: 35%;
     margin-top: 90vh;
     font-family: 'Roboto', sans-serif;
 }
@@ -36,7 +37,7 @@ nav ul{
     list-style: none;
     text-align: center;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 2rem;
     color: black;
 }
 
@@ -58,7 +59,7 @@ main{
 h2{
     text-align: center;
     padding: 20px 0;
-    font-size: 2.2em;
+    font-size: 2.2rem;
 }
 
 /* Galerías */
@@ -90,6 +91,7 @@ h2{
 
 .galería__texto{
     text-align: center;
+    font-size: 1.2rem;
     padding: 10px;
 }
 .galería a{
@@ -127,7 +129,7 @@ h2{
     background: #aaa;
     color: white;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.8rem;
     padding: 17px 40px;
     border: black solid 2px;
 }
@@ -135,6 +137,10 @@ h2{
 .tabla td{
     padding: 15px 40px;
     border: black solid 2px;
+}
+
+.tabla td a{
+    font-size: 1.1rem;
 }
 
 .tabla tbody tr:nth-child(odd){

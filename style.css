@@ -67,16 +67,18 @@ h2{
 .galería{
     margin: 0 auto;
     padding: 30px;
+    padding-top: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .galería article{
-    flex-basis: 30%;
+    padding-top: 5px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    flex-basis: 30%;
 }
 
 .galería__imágen{
@@ -116,6 +118,7 @@ h2{
 
 .comunicados__tabla{
     padding: 50px;
+    padding-top: 0;
 }
 
 .tabla{
@@ -137,6 +140,7 @@ h2{
 .tabla td{
     padding: 15px 40px;
     border: black solid 2px;
+    transition: background-color 0.3s;
 }
 
 .tabla td a{
@@ -148,5 +152,22 @@ h2{
 }
 
 .tabla tbody td:hover{
-    background: #aaa;
+    background: #bbb;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    body{
+        margin-top: 87vh;
+    }
+
+    .nav__li{
+        min-width: max-content;
+        line-height: 50px;
+    }
+
+    .galería article{
+        flex-basis: 50%;
+    }
 }

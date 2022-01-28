@@ -68,6 +68,7 @@ h2{
     margin: 0 auto;
     padding: 30px;
     padding-top: 0;
+    padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -75,7 +76,6 @@ h2{
 
 .galería article{
     padding-top: 5px;
-    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     flex-basis: 30%;
@@ -115,45 +115,47 @@ h2{
 }
 
 /* Tablas */
-
-.comunicados__tabla{
-    padding: 50px;
-    padding-top: 0;
-}
-
-.tabla{
+.tabla__resposive{
     width: 85%;
-    margin: auto;
+    margin: 0 auto 50px auto;
     border: black solid 2px;
-    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.tabla th{
+.tabla__resposive-columna{
+    min-width:min-content;
+    flex-grow: 1;
+}
+
+.tabla__responsive-header{
     background: #aaa;
     color: white;
     font-weight: bold;
     font-size: 1.8rem;
+    text-align: center;
     padding: 17px 40px;
-    border: black solid 2px;
+    border: black solid 1px;
 }
 
-.tabla td{
-    padding: 15px 40px;
-    border: black solid 2px;
-    transition: background-color 0.3s;
-}
-
-.tabla td a{
+.tabla__responsive-celda a{
     font-size: 1.1rem;
 }
 
-.tabla tbody tr:nth-child(odd){
+.tabla__responsive-celda{
+    padding: 15px 40px;
+    border: black solid 1px;
+    transition: background-color 0.3s;
+}
+
+.tabla__responsive-celda:nth-child(odd){
     background: #ddd;
 }
 
-.tabla tbody td:hover{
+.tabla__responsive-celda:hover{
     background: #bbb;
 }
+
 
 
 /* Medium devices (landscape tablets, 768px and up) */

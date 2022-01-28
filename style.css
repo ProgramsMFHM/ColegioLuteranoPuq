@@ -154,31 +154,31 @@ footer{
 }
 
 .lema__colegio{
-    padding: 15px;
     flex-grow: 1;
+    padding: 15px;
     display: flex;
 }
 
 .lema__colegio img{
+    flex-grow: 1;
     max-width: 100px;
     margin-right: 5%;
     object-fit: contain;
-    flex-grow: 1;
 }
 
 .lema__colegio p{
-    font-size: 1.7rem;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
     flex-grow: 2;
     align-self: center;
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
     display: inline;
 }
 
 .redes__sociales{
-    padding: 15px;
     flex-grow: 4;
+    padding: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -189,23 +189,22 @@ footer{
     flex-direction: column;
 }
 
-.redes__sociales-red a:hover > i, .redes__sociales-red a:hover > p{
-    color: purple;
-}
-
 .redes__sociales-red i{
+    margin: auto;
     padding: 20px;
     font-size: 2.8rem;
     transition: color .4s;
-    margin: auto;
 }
 
 .redes__sociales-red p{
-    text-align: center;
     font-size: 1.5rem;
+    text-align: center;
     transition: color .4s;
 }
 
+.redes__sociales-red a:hover > i, .redes__sociales-red a:hover > p{
+    color: purple;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 992px) {
@@ -220,5 +219,28 @@ footer{
 
     .galería article{
         flex-basis: 50%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    .nav__li{
+        font-size: 1.7rem;
+    }
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 11px;
+    }
+
+    nav{
+        position: unset;
+    }
+
+    .nav ul{
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -104,16 +104,6 @@ h2{
     color: purple;
 }
 
-.iframe-facebook div{
-    flex-grow: 1;
-    align-self: center;
-}
-
-.iframe-google iframe{
-    flex-grow: 2;
-    align-self: center;
-}
-
 /* Tablas */
 .tabla__resposive{
     width: 85%;
@@ -156,6 +146,65 @@ h2{
     background: #bbb;
 }
 
+/* footer */
+footer{
+    background: rgb(224, 224, 224);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lema__colegio{
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+}
+
+.lema__colegio img{
+    max-width: 100px;
+    margin-right: 5%;
+    object-fit: contain;
+    flex-grow: 1;
+}
+
+.lema__colegio p{
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    flex-grow: 2;
+    align-self: center;
+    display: inline;
+}
+
+.redes__sociales{
+    padding: 15px;
+    flex-grow: 4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.redes__sociales-red a{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes__sociales-red a:hover > i, .redes__sociales-red a:hover > p{
+    color: purple;
+}
+
+.redes__sociales-red i{
+    padding: 20px;
+    font-size: 2.8rem;
+    transition: color .4s;
+    margin: auto;
+}
+
+.redes__sociales-red p{
+    text-align: center;
+    font-size: 1.5rem;
+    transition: color .4s;
+}
 
 
 /* Medium devices (landscape tablets, 768px and up) */

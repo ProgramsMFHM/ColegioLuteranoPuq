@@ -68,16 +68,16 @@ h2{
     padding: 30px;
     padding-top: 0;
     padding-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(605px , 1fr));
+    justify-content: center;
+    gap: 15px;
 }
 
 .galería article{
     padding-top: 5px;
     display: flex;
     flex-direction: column;
-    flex-basis: 30%;
 }
 
 .galería__imágen{
@@ -206,6 +206,10 @@ footer{
 }
 
 @media only screen and (max-width: 900px) {
+    html{
+        font-size: 10px;
+    }
+
     nav{
         position: unset;
     }

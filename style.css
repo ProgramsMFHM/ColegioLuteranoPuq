@@ -25,20 +25,19 @@ nav{
     border-bottom: 1px black solid;
     position: sticky;
     top: 0%;
-    z-index: 100;
 }
 nav ul{
-    text-align: center;
-    padding: 3vh 0;
+    padding: 3vh 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 47px;
 }
 .nav__li{
-    display: inline;
-    padding: 20px;
-    list-style: none;
     text-align: center;
+    list-style: none;
     text-decoration: none;
     font-size: 2rem;
-    color: black;
 }
 
 .nav__li:hover a{
@@ -206,41 +205,12 @@ footer{
     color: purple;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 992px) {
-    body{
-        margin-top: 87vh;
-    }
-
-    .nav__li{
-        min-width: max-content;
-        line-height: 50px;
-    }
-
-    .galería article{
-        flex-basis: 50%;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px) {
-    .nav__li{
-        font-size: 1.7rem;
-    }
-}
-
- /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    html{
-        font-size: 11px;
-    }
-
+@media only screen and (max-width: 900px) {
     nav{
         position: unset;
     }
 
-    .nav ul{
-        display: flex;
-        flex-direction: column;
+    .galería article{
+        flex-basis: 50%;
     }
 }

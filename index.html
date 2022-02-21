@@ -24,7 +24,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Colegio, Luterano, Jose Davet 01050, Colegio Punta Arenas">
-    <meta name="robots" content="index">
     <meta name="description" content="Colegio Luterano de Punta Arenas, Jose Davet 01050, 'La Educación de los hijos es un servicio a y para Dios'">
     <title>Colegio Luterano</title>
 
@@ -42,15 +41,29 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
+    <i class="fas fa-bars menu-btn"></i>
+    <nav class="menu-container">
+        <ul class="menu">
             <li class="nav__li"><a href="index.html">Inicio</a></li>
             <li class="nav__li"><a href="#">Módulo de trabajo por curso</a></li>
-            <li class="nav__li"><a href="#">Documentos</a></li>
+            <li class="nav__li container-submenu">
+                <a href="#" class="submenu-btn">Documentos <i class="fas fa-arrow-down submenu-btn__icon"></i></a>
+                <ul class="submenu">
+                    <li class="submenu__li"><a href="#">Proceso de Becas 2022</a></li>
+                    <li class="submenu__li"><a href="#">Admisión 2022</a></li>
+                    <li class="submenu__li"><a href="#">Reglamento Interno y Protocolos</a></li>
+                    <li class="submenu__li"><a href="#">Información y Protocolo ante Coronavirus</a></li>
+                    <li class="submenu__li"><a href="#">Lista de útiles 2022</a></li>
+                    <li class="submenu__li"><a href="#">Formulario para documentar 2022</a></li>
+                    <li class="submenu__li"><a href="#">Resoluión cobrs año 2022</a></li>
+                    <li class="submenu__li"><a href="#">Cuenta pública</a></li>
+                </ul>
+            </li>
             <li class="nav__li"><a href="#">Formulario matrículas</a></li>
             <li class="nav__li"><a href="">Contacto</a></li>
         </ul>
     </nav>
+    <img src="sources/Images/Imágen_colegio.webp" alt="Colegio" class="banner">
     <main>
         <section class="sección" class="recurrentes">
             <h2>Recurrentes</h2>
@@ -203,5 +216,6 @@
             <img src="sources/Images/Escudo_colegio.webp" alt="Escudo-colegio-luterano-de-punta-arenas">
         </div>
     </footer>
+    <script src="responsiveMenu.js"></script>
 </body>
 </html>

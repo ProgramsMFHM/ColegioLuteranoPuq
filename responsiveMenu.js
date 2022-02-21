@@ -1,10 +1,10 @@
-const menuButton = document.querySelector(".menu-btn");
-const menu = document.querySelector(".menu-container");
-const subMenuButtons = document.querySelectorAll(".submenu-btn");
+const menuButton = document.querySelector(".menuBtn");
+const menu = document.querySelector(".menuContainer");
+const subMenuButtons = document.querySelectorAll(".subMenuBtn");
 
 menuButton.addEventListener("click", () =>{
 
-    menu.classList.toggle("show-menu");
+    menu.classList.toggle("showMenu");
 
 })
 

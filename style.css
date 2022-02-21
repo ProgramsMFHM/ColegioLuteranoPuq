@@ -11,6 +11,9 @@
 }
 
 /* Noemalización */
+html{
+    overflow-x: hidden;
+}
 *{
     margin: 0;
     padding: 0;
@@ -170,8 +173,9 @@ h2{
 }
 
 .responsiveTable__column{
-    min-width:min-content;
+    max-width: 100%;
     flex-grow: 1;
+    overflow: hidden;
 }
 
 .responsiveTable__header{
@@ -180,7 +184,7 @@ h2{
     font-weight: bold;
     font-size: 1.8rem;
     text-align: center;
-    padding: 17px 40px;
+    padding: 17px 15px;
     border: var(--text-primary) solid 1px;
 }
 

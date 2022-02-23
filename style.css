@@ -1,4 +1,29 @@
+/* Cosas a tener en cuenta: 
+En este documento se seguirán las siguientes normas a la hora de escribir estilos:
+    1. propiedades de display internas: Cosas como "align-self"
+    2. Propiedades que afecten al objeto: "Opacity, Visivility, object-fit..."
+    3. Estilos relacionados al background
+    4. Margin
+    5. Border
+    6. Outline
+    7. Padding
+    8. Width
+    9. Hright
+    10. Propiedades Font       
+    11. Propiedades Text
+    12. Color
+    13. Position
+    14. Propiedades relacionadas con Position 
+    15. Display
+    16. Propiedades relacionadas con display
+    17. Animation
+    18. Transform
+    19. Transition
+Tenga en cuenta que si hay varias propiedades en la misma categoía se usará el orden alfabético.
+*/
+
 /* Variables */
+
 :root{
     --backgruound-primary: #fff;
     --backgruound-secundary: #ddd;
@@ -10,39 +35,42 @@
 }
 
 /* Noemalización */
+
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
     background-color: var(--backgruound-primary);
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
-    color: var(--text-primary);
     text-decoration: none;
+    color: var(--text-primary);
 }
 
 /* Banner */
+
 .banner{
+    object-fit: cover;
     width: 100%;
     height: 50vh;
-    object-fit: cover;
 }
 
 /* Edición del Índice */
+
 .menuContainer{
+    position: sticky;
+    top: 0%;
     background: var(--backgruound-secundary);
     border: 1px var(--text-primary) solid;
     padding: 15px;
-    position: sticky;
-    top: 0%;
     display: grid;
-    grid-template-columns: 1fr;
     align-items: center;
+    grid-template-columns: 1fr;
 }
 
 .menuBtn, .subMenuBtn__icon{
@@ -51,26 +79,27 @@ a{
 
 .menuContainer img{
     place-self: center;
-    width: 90px;
     padding: 25px 0;
+    width: 90px;
 }
 
 .menu{
     padding: 3vh;
     display: flex;
-    justify-content: space-evenly;
     gap: 47px;
+    justify-content: space-evenly;
 }
+
 .menu__li{
     text-align: center;
-    list-style: none;
     text-decoration: none;
     font-size: 1.5rem;
+    list-style: none;
 }
 
 .menu__li:hover a{
-    transition: color .4s;
     color: var(--text-secundary);
+    transition: color .4s;
 }
 
 .containerSubMenu:hover a{
@@ -78,13 +107,14 @@ a{
 }
 
 .subMenu{
-    width: 35rem;
-    background-color: var(--backgruound-tertiary);
-    border: 2px solid var(--text-secundary);
-    position: absolute;
-    transition: opacity 0.2s, visibility 0.2s;
     opacity: 0;
     visibility: hidden;
+    position: absolute;
+    background-color: var(--backgruound-tertiary);
+    border: 2px solid var(--text-secundary);
+    border-radius: 15px;
+    width: 35rem;
+    transition: opacity 0.2s, visibility 0.2s;
 }
 
 .containerSubMenu:hover > .subMenu{
@@ -93,30 +123,28 @@ a{
 }
 
 .subMenu__li{
-    list-style: none;
+    border-bottom: 1px solid var(--text-primary);
+    border-radius: 15px;
     padding: 15px;
     padding-left: 1.2rem;
-    border-bottom: 1px solid var(--text-primary);
+    list-style: none;
 }
 
 .subMenu__li:hover a{
-    transition: color .4s;
     color: var(--text-secundary);
-}
-
-/* Edición del main */
-main{
-    background-color: var(--backgruound-primary);
+    transition: color .4s;
 }
 
 /* Subtítulos */
+
 h2{
-    text-align: center;
     padding: 20px 0;
+    text-align: center;
     font-size: 2.2rem;
 }
 
 /* gallerys */
+
 .gallery{
     overflow-x: hidden;
     margin: 0 auto;
@@ -124,9 +152,9 @@ h2{
     padding-top: 0;
     padding-bottom: 20px;
     display: grid;
+    gap: 15px;
     grid-template-columns: repeat(auto-fit , minmax(605px , 1fr));
     justify-content: center;
-    gap: 15px;
 }
 
 .gallery article{
@@ -136,20 +164,21 @@ h2{
 }
 
 .gallery__image{
-    height: 175px;
     object-fit: contain;
+    height: 175px;
 }
 
 .gallery__video{
-    height: 175px;
     align-self: center;
+    height: 175px;
 }
 
 .gallery__text{
+    padding: 10px;
     text-align: center;
     font-size: 1.2rem;
-    padding: 10px;
 }
+
 .gallery a{
     transition: color .4s;
 }
@@ -159,28 +188,29 @@ h2{
 }
 
 /* Tablas */
+
 .responsiveTable{
-    width: 85%;
     margin: 0 auto 50px auto;
     border: var(--text-primary) solid 2px;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .responsiveTable__column{
-    max-width: 100%;
     flex-grow: 1;
     overflow: hidden;
+    max-width: 100%;
 }
 
 .responsiveTable__header{
     background: var(--backgruound-quinary);
-    color: var(--backgruound-primary);
-    font-weight: bold;
-    font-size: 1.8rem;
-    text-align: center;
-    padding: 17px 15px;
     border: var(--text-primary) solid 1px;
+    padding: 17px 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--backgruound-primary);
 }
 
 .responsiveTable__cell a{
@@ -188,8 +218,8 @@ h2{
 }
 
 .responsiveTable__cell{
-    padding: 15px 40px;
     border: var(--text-primary) solid 1px;
+    padding: 15px 40px;
     transition: background-color 0.3s;
 }
 
@@ -202,6 +232,7 @@ h2{
 }
 
 /* footer */
+
 footer{
     background: var(--backgruound-secundary);
     display: flex;
@@ -216,14 +247,14 @@ footer{
 
 .schoolMotto img{
     flex-grow: 1;
-    max-width: 100px;
-    margin-right: 5%;
     object-fit: contain;
+    margin-right: 5%;
+    max-width: 100px;
 }
 
 .schoolMotto p{
-    flex-grow: 2;
     align-self: center;
+    flex-grow: 2;
     font-size: 1.7rem;
     font-style: italic;
     font-weight: bold;
@@ -238,6 +269,7 @@ footer{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .socialMedia__network a{
     margin: auto;
     display: flex;
@@ -261,14 +293,15 @@ footer{
     color: var(--text-secundary);
 }
 
-@media only screen and (max-width: 1577px) {
+@media only screen and (max-width: 1577px){
+
     .menuBtn{
         background-color: var(--backgruound-primary);
-        display: block;
-        position: relative;
-        z-index: 100;
         padding: 15px;
         font-size: 1.5rem;
+        position: relative;
+        z-index: 100;
+        display: block;
     }
 
     .menuBtn::after{
@@ -277,12 +310,12 @@ footer{
     }
 
     .menuContainer{
-        position: absolute;
         top: 54px;
         width: 100%;
-        transition: transform 0.5s;
-        transform: translateY(-150%); 
+        position: absolute;
         z-index: 10;   
+        transform: translateY(-150%); 
+        transition: transform 0.5s;
     }
 
     .showMenu{
@@ -294,28 +327,32 @@ footer{
     }
 
     .menu__li{
-        text-align: left;
-        padding: 15px;
-        border-top: 1px dashed var(--backgruound-quinary);
         border-left: 1px dashed var(--backgruound-quinary);
+        border-top: 1px dashed var(--backgruound-quinary);
+        padding: 15px;
+        text-align: left;
     }
 
     .subMenuBtn__icon{
-        display: inline;
         margin-left: 15px;
         color: var(--backgruound-quinary);
+        display: inline;
     }
 
     .subMenu{
-        display: block;
-        height: 0;
-        padding-left: 30px;
-        overflow: hidden;
-        transition: all 0.5s;
-        position: static;
         opacity: 1;
+        overflow: hidden;
         visibility: visible;
         border: none;
         width: 100%;
+        height: 0;
+        position: static;
+        display: block;
+        transition: all 0.5s;
     }
+
+    .subMenu__li{
+        text-align: center;
+    }
+
 }

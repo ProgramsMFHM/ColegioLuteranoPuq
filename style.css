@@ -97,6 +97,10 @@ a{
     list-style: none;
 }
 
+.menu__li a{
+    display: block;
+}
+
 .menu__li:hover a{
     color: var(--text-secundary);
     transition: color .4s;
@@ -130,6 +134,10 @@ a{
     list-style: none;
 }
 
+.subMenu__li a{
+    display: block;
+}
+
 .subMenu__li:hover a{
     color: var(--text-secundary);
     transition: color .4s;
@@ -148,9 +156,7 @@ h2{
 .gallery{
     overflow-x: hidden;
     margin: 0 auto;
-    padding: 30px;
-    padding-top: 0;
-    padding-bottom: 20px;
+    padding: 0 30px 20px;
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(auto-fit , minmax(605px , 1fr));
@@ -170,11 +176,11 @@ h2{
 
 .gallery__video{
     align-self: center;
-    height: 175px;
 }
 
 .gallery__text{
-    padding: 10px;
+    margin-top: 35px;
+    margin-bottom: 15px;
     text-align: center;
     font-size: 1.2rem;
 }
@@ -213,14 +219,15 @@ h2{
     color: var(--backgruound-primary);
 }
 
-.responsiveTable__cell a{
-    font-size: 1.1rem;
-}
-
 .responsiveTable__cell{
     border: var(--text-primary) solid 1px;
     padding: 15px 40px;
+    min-height: 55px;
     transition: background-color 0.3s;
+}
+
+.responsiveTable__cell:hover{
+    border: var(--text-secundary) solid 2px;
 }
 
 .responsiveTable__cell:nth-child(odd){
@@ -229,6 +236,11 @@ h2{
 
 .responsiveTable__cell:hover{
     background: var(--backgruound-quaternary);
+}
+
+.responsiveTable__cell a{
+    font-size: 1.1rem;
+    display: block;
 }
 
 /* footer */
@@ -355,4 +367,11 @@ footer{
         text-align: center;
     }
 
+}
+
+@media only screen and (max-width: 500px){
+    .gallery{
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -1,0 +1,61 @@
+/* footer */
+
+footer{
+    background: var(--backgruound-secundary);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.schoolMotto{
+    flex-grow: 1;
+    padding: 15px;
+    display: flex;
+}
+
+.schoolMotto img{
+    flex-grow: 1;
+    object-fit: contain;
+    margin-right: 5%;
+    max-width: 100px;
+}
+
+.schoolMotto p{
+    align-self: center;
+    flex-grow: 2;
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+}
+
+.socialMedia{
+    flex-grow: 4;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.socialMedia__network a{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia__network i{
+    margin: auto;
+    padding: 20px;
+    font-size: 2.8rem;
+    transition: color .4s;
+}
+
+.socialMedia__network p{
+    font-size: 1.5rem;
+    text-align: center;
+    transition: color .4s;
+}
+
+.socialMedia__network a:hover > i, .socialMedia__network a:hover > p{
+    color: var(--text-secundary);
+}

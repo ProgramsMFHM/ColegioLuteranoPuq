@@ -1,0 +1,49 @@
+/* Tablas */
+
+.responsiveTable{
+    margin: 0 auto 50px auto;
+    border: var(--text-primary) solid 2px;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.responsiveTable__column{
+    flex-grow: 1;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.responsiveTable__header{
+    background: var(--backgruound-quinary);
+    border: var(--text-primary) solid 1px;
+    padding: 17px 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--backgruound-primary);
+}
+
+.responsiveTable__cell{
+    border: var(--text-primary) solid 1px;
+    padding: 15px 40px;
+    min-height: 55px;
+    transition: background-color 0.3s;
+}
+
+.responsiveTable__cell:hover{
+    border: var(--text-secundary) solid 2px;
+}
+
+.responsiveTable__cell:nth-child(odd){
+    background: var(--backgruound-secundary);
+}
+
+.responsiveTable__cell:hover{
+    background: var(--backgruound-quaternary);
+}
+
+.responsiveTable__cell a{
+    font-size: 1.1rem;
+    display: block;
+}

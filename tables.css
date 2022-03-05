@@ -1,9 +1,9 @@
 /* Tablas */
 
 .responsiveTable{
-    margin: 0 auto 50px auto;
+    margin: 0 auto 0 auto;
     border: var(--text-primary) solid 2px;
-    width: 85%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
 }

@@ -1,0 +1,40 @@
+/* Layout */
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "news news news news aside"
+    "information information information information information"
+    "footer footer footer footer footer"
+    ;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.header{
+    grid-area: header;
+}
+
+.news{
+    grid-area: news;
+}
+
+.usefulButtons{
+    grid-area: aside;
+}
+
+.information{
+    grid-area: information;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+@media only screen and (max-width: 1577px){
+
+    body{
+        display: block;
+    }
+
+}

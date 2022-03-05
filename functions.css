@@ -1,0 +1,37 @@
+/* recurring things */
+
+.function__container{
+    border: 8px solid black;
+    border-radius: 25px;
+    padding: 25px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit , minmax(100px , 1fr));
+}
+
+.function{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.function__image{
+    object-fit: contain;
+    margin: 5px;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.function__text{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1577px){
+
+    .function__container{
+        border: none;
+        grid-template-columns: repeat(auto-fit , minmax(120px , 1fr));
+    }
+
+}

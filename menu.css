@@ -1,8 +1,6 @@
 /* Edición del Menú */
 
 .menuContainer{
-    position: sticky;
-    top: 0%;
     background: var(--backgruound-secundary);
     border: 1px var(--text-primary) solid;
     padding: 15px;
@@ -29,10 +27,10 @@
 }
 
 .menu__li{
-    text-align: center;
-    text-decoration: none;
     font-size: 1.5rem;
     list-style: none;
+    text-align: center;
+    text-decoration: none;
 }
 
 .menu__li a{
@@ -51,11 +49,12 @@
 .subMenu{
     opacity: 0;
     visibility: hidden;
-    position: absolute;
     background-color: var(--backgruound-tertiary);
     border: 2px solid var(--text-secundary);
     border-radius: 15px;
     width: 35rem;
+    position: absolute;
+    z-index: 1;
     transition: opacity 0.2s, visibility 0.2s;
 }
 

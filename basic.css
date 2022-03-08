@@ -28,6 +28,12 @@ a{
     color: var(--text-primary);
 }
 
+/* Titulos */
+
+h1{
+    font-size: 3.12rem;
+}
+
 /* Subtítulos */
 
 h2{

@@ -1,6 +1,6 @@
 /* recurring things */
 
-.function__container{
+.usefulButtons{
     border: 8px solid black;
     border-radius: 25px;
     padding: 25px;
@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 1577px){
 
-    .function__container{
+    .usefulButtons{
         border: none;
         grid-template-columns: repeat(auto-fit , minmax(120px , 1fr));
     }

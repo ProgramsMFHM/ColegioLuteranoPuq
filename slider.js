@@ -15,27 +15,23 @@ function next(){
         slider.style.transition = "none";
         slider.insertAdjacentElement("beforeend" , firstItem);
         slider.style.marginLeft = "-100%";
-    },time)
+    },time);
 }
 
 function previous(){
     sliderItems = document.querySelectorAll(".slider__item");
     lastItem = sliderItems[sliderItems.length-1];
     slider.style.marginLeft = "0";
-    slider.style.transition = `all ${duración}ms`;
+    slider.style.transition = `all ${time}ms`;
     setTimeout(function(){
         slider.style.transition = "none";
-        slider.insertAdjacentElement("afterbegin" , últimoItem);
+        slider.insertAdjacentElement("afterbegin" , lastItem);
         slider.style.marginLeft = "-100%";
-    },time)
+    },time);
 }
 
-right.addEventListener("click", () =>{
-    next();
-});
+right.addEventListener("click", () =>{next();});
 
-left.addEventListener("click", () =>{
-    previous();
-});
+left.addEventListener("click", () =>{previous();});
 
 setInterval(()=>{next();}, 10000);

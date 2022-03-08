@@ -15,12 +15,14 @@ body{
     grid-area: header;
 }
 
-.news{
+.novelties{
     grid-area: news;
+    margin-top: 25px;
 }
 
 .usefulButtons{
     grid-area: aside;
+    margin-top: 25px;
 }
 
 .information{

@@ -1,0 +1,145 @@
+body{
+    background-image: url(/sources/Images/Imágen_colegio.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.new__header{
+    background-color: var(--backgruound-secundary);
+}
+
+.new__principalImage{
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+.new__body{
+    overflow: hidden;
+    background-color: var(--backgruound-primary);
+    margin: auto;
+    padding: 30px 50px;
+    width: 90%;
+    min-height: 55vh;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.new__paragraph{
+    padding-bottom: 10px;
+}
+
+.new__ol{
+    padding-left: 40px;
+}
+
+.new__ol li{
+    margin: 1rem 0;
+}
+
+.new__quote{
+    font-style: italic;
+}
+
+.new__quote::before{
+    content: '"';
+}
+
+.new__quote::after{
+    content: '"';
+}
+
+.new__quote-reference{
+    font-size: 1.2rem;
+}
+
+.new__image{
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+.new__image-left-small{
+    float: left;
+    margin-left: 0;
+    width: min(500px,50%);
+}
+
+.new__image-right-small{
+    float: right;
+    margin-right: 0;
+    width: min(500px,50%);
+}
+
+.new__image-left-big{
+    float: left;
+    margin-left: 0;
+    width: min(1500px,50%);
+}
+
+.new__image-right-big{
+    float: right;
+    margin-right: 0;
+    width: min(1500px,50%);
+}
+
+.new__image-fullWith{
+    object-fit: cover;
+    width: calc(100% - 30px);
+    height: 400px;
+}
+
+.new__end{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new__end img{
+    flex-basis: 500px;
+    flex-grow: 1;
+    float: none;
+    width: 100%;
+}
+
+.new__end p{
+    flex-basis: 500px;
+    flex-grow: 1;
+    margin: auto;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.new__end p span:first-child{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1577px){
+    .new__body{
+        background-color: var(--backgruound-primary);
+        margin: auto;
+        padding: 0 50px 25px;
+        width: 100%;
+        line-height: 1.5;
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    .new__image{
+        width: 100%;
+    }
+
+    .new__end{
+        flex-direction: column;
+    }
+
+    .new__end img{
+        order: 0;
+    }
+
+    .new__end p{
+        flex-basis: auto;
+        order: 1;
+    }
+}

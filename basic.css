@@ -30,8 +30,10 @@ a{
 
 /* Titulos */
 
-h1{
+.title{
     font-size: 3.12rem;
+    text-align: center;
+    padding: 25px;
 }
 
 /* Subtítulos */

@@ -20,7 +20,6 @@
 }
 
 .menu{
-    padding: 3vh;
     display: flex;
     gap: 47px;
     justify-content: space-evenly;
@@ -28,9 +27,11 @@
 
 .menu__li{
     font-size: 1.5rem;
+    font-weight: bold;
     list-style: none;
     text-align: center;
     text-decoration: none;
+    position: relative;
 }
 
 .menu__li a{
@@ -51,9 +52,9 @@
     visibility: hidden;
     background-color: var(--backgruound-tertiary);
     border: 2px solid var(--text-secundary);
-    border-radius: 15px;
     width: 35rem;
     position: absolute;
+    top: 150%;
     z-index: 1;
     transition: opacity 0.2s, visibility 0.2s;
 }
@@ -65,7 +66,6 @@
 
 .subMenu__li{
     border-bottom: 1px solid var(--text-primary);
-    border-radius: 15px;
     padding: 15px;
     padding-left: 1.2rem;
     list-style: none;
@@ -83,6 +83,7 @@
 @media only screen and (max-width: 1577px){
 
     .menuBtn{
+        cursor: pointer;
         background-color: var(--backgruound-primary);
         padding: 15px;
         font-size: 1.5rem;
@@ -97,10 +98,9 @@
     }
 
     .menuContainer{
-        top: 54px;
         width: 100%;
         position: absolute;
-        z-index: 10;   
+        z-index: 1;   
         transform: translateY(-150%); 
         transition: transform 0.5s;
     }
@@ -122,7 +122,7 @@
 
     .subMenuBtn__icon{
         margin-left: 15px;
-        color: var(--backgruound-quinary);
+        color: var(--text-primary);
         display: inline;
     }
 

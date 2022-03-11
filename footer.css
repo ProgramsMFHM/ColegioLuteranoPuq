@@ -10,13 +10,7 @@ footer{
     flex-grow: 1;
     padding: 15px;
     display: flex;
-}
-
-.schoolMotto img{
-    flex-grow: 1;
-    object-fit: contain;
-    margin-right: 5%;
-    max-width: 100px;
+    flex-wrap: wrap;
 }
 
 .schoolMotto p{
@@ -26,7 +20,21 @@ footer{
     font-style: italic;
     font-weight: bold;
     text-align: center;
+    color: var(--text-primary);
     display: inline;
+}
+
+.shields{
+    padding: 0 15px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.schoolMotto img{
+    object-fit: contain;
+    max-width: 100px;
 }
 
 .socialMedia{
@@ -58,4 +66,10 @@ footer{
 
 .socialMedia__network a:hover > i, .socialMedia__network a:hover > p{
     color: var(--text-secundary);
+}
+
+@media only screen and (max-width: 972px){
+    .shields{
+        padding-top: 10px;
+    }
 }

@@ -21,7 +21,7 @@
     font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
-    color: var(--backgruound-primary);
+    color: var(--text-primary);
 }
 
 .responsiveTable__cell{
@@ -40,7 +40,7 @@
 }
 
 .responsiveTable__cell:hover{
-    background: var(--backgruound-quaternary);
+    background: var(--backgruound-tertiary);
 }
 
 .responsiveTable__cell a{

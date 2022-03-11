@@ -3,12 +3,12 @@
 body{
     display: grid;
     grid-template-areas: 
-    "header header header header header"
-    "news news news news aside"
-    "information information information information information"
-    "footer footer footer footer footer"
+    "header header header"
+    "news news aside"
+    "information information information"
+    "footer footer footer"
     ;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 
 .header{

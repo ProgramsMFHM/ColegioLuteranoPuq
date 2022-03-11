@@ -3,7 +3,6 @@
     background-color: var(--backgruound-primary);
     margin: auto;
     border: 5px solid var(--text-primary);
-    border-radius: 25px;
     width: 90%;
     position: relative;
 }
@@ -11,7 +10,7 @@
 .slider{
     margin-left: -100%;
     width: 400%;
-    height: 650px;
+    height: 500px;
     display: flex;
 }
 
@@ -35,7 +34,7 @@
 }
 
 .slider__text{
-    font-size: 20px;
+    font-size: 1,3rem;
     text-align: justify;
 }
 

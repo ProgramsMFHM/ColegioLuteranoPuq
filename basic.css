@@ -2,12 +2,12 @@
 
 :root{
     --backgruound-primary: #fff;
-    --backgruound-secundary: #ddd;
-    --backgruound-tertiary: #ccc;
+    --backgruound-secundary: #d3ecfa;
+    --backgruound-tertiary: #b0def8;
     --backgruound-quaternary: #bbb;
-    --backgruound-quinary: #aaa;
+    --backgruound-quinary: #9bd6f8;
     --text-primary: black;
-    --text-secundary: purple;
+    --text-secundary: rgb(89, 89, 175);
 }
 
 /* Noemalización */
@@ -38,8 +38,14 @@ a{
 
 /* Subtítulos */
 
-h2{
+.subtitle{
     padding: 20px 0;
     text-align: center;
     font-size: 2.2rem;
+}
+
+@media only screen and (max-width: 440px){
+    html{
+        font-size: 10px;
+    }
 }

@@ -1,8 +1,8 @@
 /* recurring things */
 
 .usefulButtons{
-    border: 8px solid black;
-    border-radius: 25px;
+    margin-right: 15px;
+    border: 8px solid var(--text-secundary); 
     padding: 25px;
     display: grid;
     gap: 25px;

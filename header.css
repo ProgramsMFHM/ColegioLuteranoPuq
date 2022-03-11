@@ -1,7 +1,50 @@
-/* Banner */
-
-.banner{
-    object-fit: cover;
+.heading{
+    background-image: url(sources/Images/Imágen_colegio.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 4%;
     width: 100%;
-    height: 50vh;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.heading__image{
+    filter: drop-shadow(10px 10px 10px black);
+    object-fit: contain;
+    padding: 30px 0 ;
+    width: 15%;
+    max-width: 150px;
+}
+
+.heading__text{
+    padding-left: 15px;
+    text-align: center;
+    text-shadow: 10px 10px 10px black;
+    color: var(--backgruound-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading__text-1{
+    font-family: cursive;
+    font-size: 3.5rem;
+    font-style: italic; 
+    font-weight: bold;
+}
+
+.heading__text-2{
+    font-family: cursive;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 440px){
+    .heading__image{
+        max-width: 110px;
+    }
 }

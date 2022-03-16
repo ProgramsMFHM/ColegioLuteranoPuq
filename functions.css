@@ -1,15 +1,28 @@
-/* recurring things */
-
-.usefulButtons{
+.usefulTools{
     margin-right: 15px;
     border: 8px solid var(--text-secundary); 
-    padding: 25px;
-    display: grid;
-    gap: 25px;
-    grid-template-columns: repeat(auto-fit , minmax(100px , 1fr));
+    padding: 0 25px;
+}
+
+.usefulTools section:first-child{
+    height: 62%;
+}
+
+.usefulTools section:nth-child(2){
+    height: 38%;
+}
+
+/* usefulButtons */
+
+.usefulButtons{
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .function{
+    flex-basis: calc(100%/3);
+    min-width: 151px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -25,12 +38,62 @@
 
 .function__text{
     text-align: center;
+    font-size: 0.8rem;
+}
+
+/* usefulLinks */
+
+.usefulLinks{
+    display: flex;
+    flex-direction: column;
+}
+
+.usefulLinks h2{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.usefulLinks ul{
+    flex-grow: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.link__item{
+    list-style: square;
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+.link__item a{
+    transition: color 0.1s;
+}
+
+.link__item a:link{
+    color: var(--text-secundary);
+}
+
+.link__item a:visited{
+    color: var(--text-secundary);
+}
+
+.link__item a:hover{
+    color: var(--backgruound-quinary);
+}
+
+.link__item a:active{
+    color: rgb(160, 94, 160);
 }
 
 @media only screen and (max-width: 1577px){
 
+    .usefulTools{
+        margin-left: 15px;
+    }
+
     .usefulButtons{
-        border: 5px solid black;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;

@@ -1,4 +1,4 @@
-.new__prevew{
+.pagePrevew{
     overflow: hidden;
     margin: 15px;
     border: 1px solid var(--text-primary);
@@ -6,11 +6,11 @@
     transition: box-shadow 0.7s;
 }
 
-.new__prevew:hover{
+.pagePrevew:hover{
     box-shadow: 10px 10px 30px #777;
 }
 
-.new__description{
+.pagePrevew__description{
     overflow: hidden;
     visibility: hidden;
     background-color: rgba(89, 89, 175, 0.5 );
@@ -26,11 +26,11 @@
     transition: transform 0.7s, visibility 0.7s;
 }
 
-.new__description p{
+.pagePrevew__description p{
     margin: auto;
 }
 
-.new__prevew:hover > .new__description{
+.pagePrevew:hover > .pagePrevew__description{
     overflow: hidden;
     visibility: visible;
     transform: translate(0);

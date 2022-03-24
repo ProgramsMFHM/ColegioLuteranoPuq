@@ -1,0 +1,50 @@
+.funcionarios{
+    margin: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    column-gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: calc(125px/2);
+}
+
+.funcionario{
+    border: 5px outset rgb(71, 28, 28);
+    width: 250px;
+    transition: border 0.5s, color 0.5s;
+}
+
+.funcionario:hover{
+    border: 5px outset var(--text-secundary);
+}
+
+.funcionario__image{
+    width: 100%;
+}
+
+.funcionario__text{
+    padding: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.funcionario__name, .funcionario__position, .funcionario__mail{
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.funcionario__mail{
+    transition: color 0.5s;
+}
+
+.funcionario__mail:hover{
+    color: var(--text-secundary);
+}
+
+.funcionario__name__icon, .funcionario__position__icon, .funcionario__mail__icon{
+    place-self: center;
+    font-size: 30px;
+}

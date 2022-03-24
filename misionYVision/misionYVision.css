@@ -1,0 +1,61 @@
+.mision{
+    background-image: linear-gradient(to bottom, black 1%, var(--text-secundary));
+    padding: 5% 5%;
+    color: var(--backgruound-primary);
+}
+
+.vision{
+    background-image: linear-gradient(to bottom, var(--text-secundary)50%, var(--backgruound-secundary));
+    padding: 0 5% 17%;
+    color: var(--backgruound-primary);
+}
+
+.mision, .vision{
+    display: flex;
+    align-items: center;
+}
+
+.mision img{
+    margin-left: 1%;
+}
+
+.vision img{
+    margin-right: 1%;
+}
+
+.mision img, .vision img{
+    object-fit: cover;
+    max-width: 50%;
+    height: 50%;
+}
+
+.mision__text, .vision__text{
+    flex-basis: 50%;
+    flex-grow: 1;
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1420px){
+
+    .mision, .vision{
+        flex-direction: column;
+    }
+
+    .mision{
+        padding-bottom: 0;
+    }
+
+    .vision img{
+        order: 1;
+    }
+
+    .mision__text, .vision__text{
+        margin-bottom: 15px;
+    }
+
+    .mision img, .vision img{
+        max-width: 100%;
+    }
+
+}

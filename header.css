@@ -1,6 +1,6 @@
 .heading{
-    background-image: url(sources/Images/Imágen_colegio.webp);
-    background-position: center center;
+    background-image: url(/sources/Images/Imágen_colegio.webp);
+    background-position: center 65%;
     background-repeat: no-repeat;
     background-size: 100%;
     padding-left: 4%;

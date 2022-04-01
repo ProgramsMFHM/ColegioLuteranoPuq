@@ -31,11 +31,11 @@ temporalHeader.innerHTML =`
                     <li class="subMenu__li"><a href="#">Historia</a></li>
                     <li class="subMenu__li"><a href="#">Iglesia Evangélica Luterana</a></li>
                     <li class="subMenu__li"><a href="#">Información</a></li>
-                    <li class="subMenu__li"><a href="/documents/pdf/PEI-colegio-luterano.pdf" target="0_blank">Proyecto Educativo Institucional</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/PEI-colegio-luterano.pdf" target="0_blank">Proyecto Educativo Institucional</a></li>
                 </ul>
             </li>
             <li class="menu__li"><a href="/funcionarios/funcionarios.html">Equipo de trabajo</a></li>
-            <li class="menu__li"><a href="/documents/documents.html">Documentos</a></li>
+            <li class="menu__li"><a href="/sources/documents/documents.html">Documentos</a></li>
             <li class="menu__li"><a href="/news/news.html">Noticias</a></li>
             <li class="menu__li"><a href="#">Contacto</a></li>
         </ul>

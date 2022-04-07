@@ -43,13 +43,9 @@ body{
 
 .novelties__part2 section{
     flex-grow: 1;
-}
-
-.photoBook{
-    align-self: center;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .photoBook img{

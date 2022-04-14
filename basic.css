@@ -20,7 +20,11 @@
 
 body{
     background-color: var(--backgruound-primary);
+    min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-auto-columns: 100%;
 }
 
 a{

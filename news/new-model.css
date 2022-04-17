@@ -15,6 +15,11 @@ body{
     height: 30vh;
 }
 
+.new__header h2{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .new__body{
     overflow: hidden;
     background-color: var(--backgruound-primary);

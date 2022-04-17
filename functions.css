@@ -103,4 +103,8 @@
     .function{
         width: min(130px,100%);
     }
+
+    .link__item{
+        line-height: 1.5;
+    }
 }

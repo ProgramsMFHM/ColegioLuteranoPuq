@@ -18,6 +18,8 @@ body{
 .novelties{
     grid-area: news;
     margin-top: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .usefulTools{

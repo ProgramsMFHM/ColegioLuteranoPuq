@@ -1,61 +1,49 @@
-.mision{
-    background-image: linear-gradient(to bottom, black 1%, var(--text-secundary));
-    padding: 5% 5%;
-    color: var(--backgruound-primary);
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
-.vision{
-    background-image: linear-gradient(to bottom, var(--text-secundary)50%, var(--backgruound-secundary));
-    padding: 0 5% 17%;
-    color: var(--backgruound-primary);
+main{
+    background: linear-gradient(var(--backgruound-primary) 60%, var(--backgruound-secundary));
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.mision, .vision{
-    display: flex;
-    align-items: center;
-}
-
-.mision img{
-    margin-left: 1%;
-}
-
-.vision img{
-    margin-right: 1%;
-}
-
-.mision img, .vision img{
+img{
+    height: 100%;
+    width: 100%;
     object-fit: cover;
-    max-width: 50%;
-    height: 50%;
+}
+
+.misionYVision{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .mision__text, .vision__text{
-    flex-basis: 50%;
-    flex-grow: 1;
-    font-size: 1.7rem;
     text-align: justify;
+    padding: 25px;
 }
 
-@media only screen and (max-width: 1420px){
+.mision__text p, .vision__text p{
 
-    .mision, .vision{
-        flex-direction: column;
-    }
+    font-size: 1.4rem;
+    line-height: 1.5;
 
-    .mision{
-        padding-bottom: 0;
-    }
+}
 
-    .vision img{
-        order: 1;
-    }
+.principalText{
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
 
-    .mision__text, .vision__text{
-        margin-bottom: 15px;
-    }
+@media only screen and (max-width: 1398px){
 
-    .mision img, .vision img{
-        max-width: 100%;
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
     }
 
 }

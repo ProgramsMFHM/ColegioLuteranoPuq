@@ -1,0 +1,48 @@
+.form__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 5%;
+}
+
+.form{
+    border: 10px solid var(--text-primary);
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    min-height: 50px;
+    padding: 100px;
+    transition: border 0.4s;
+}
+
+.form:hover{
+    border: 10px solid var(--text-secundary);
+}
+
+.form__container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form__container form div{
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+}
+
+.form__container form div input{
+    transition: outline 0.1s;
+}
+
+.form__container form div input:focus{
+    outline: 3px solid var(--text-secundary);
+}
+
+.form__container form div label:hover{
+    cursor: pointer;
+}

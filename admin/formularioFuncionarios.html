@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/basic.css">
+    <link rel="stylesheet" href="/header.css">
+    <link rel="stylesheet" href="/menu.css">
+    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="/admin/form.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+
+</head>
+
+<body>
+
+    <script src="/header.js"></script>
+
+    <main class="form__container">
+
+        <h1 class="title">Ingreso Formulario</H1>
+    
+        <div class="form">
+
+        <img src="/sources/Images/shields/Escudo_colegio.webp" alt="Escudo Colegio Luterano">
+
+        <form action="guardar.php" method="Post" enctype="multipart/form-data">
+            
+            <div>
+                <label for="nomfun">Nombre de Funcionario:</label>
+                <input type="text" name="nomfun" id="nomfun">
+            </div>
+
+            <div>
+                <label for="cargo">Crago:</label>
+                <input type="text" name="cargo" id="cargo">
+            </div>
+
+            <div>
+                <label for="correo">Correo:</label>
+                <input type="text" name="correo" id="correo">
+            </div>
+
+            <div>
+                <label for="foto">Foto:</label>
+                <input type="file" name="foto" id="foto" accept="image/webp">
+            </div>
+
+            <input type="submit" name="guardar" value="guardar">
+                
+        </form>
+
+        </div>
+
+    </main>
+
+
+    <script src="/footer.js"></script>
+
+</body>
+</html>
+
+

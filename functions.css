@@ -2,14 +2,12 @@
     margin-right: 15px;
     border: 8px solid var(--text-secundary); 
     padding: 0 25px;
+    display: flex;
+    flex-direction: column;
 }
 
-.usefulTools section:first-child{
-    height: 62%;
-}
-
-.usefulTools section:nth-child(2){
-    height: 38%;
+.usefulTools section{
+    flex-grow: 1;
 }
 
 /* usefulButtons */
@@ -18,11 +16,11 @@
     padding-top: 15px;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 17px;
 }
 
 .function{
-    flex-basis: calc(100%/3);
-    min-width: 151px;
+    flex-basis: calc(100%/3 - 15px);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -63,8 +61,9 @@
 
 .link__item{
     list-style: square;
-    text-decoration: underline;
     font-size: 1.8rem;
+    text-align: justify;
+    padding-bottom: 15px;
 }
 
 .link__item a{

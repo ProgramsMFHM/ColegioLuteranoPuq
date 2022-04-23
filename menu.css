@@ -80,7 +80,7 @@
     transition: color .4s;
 }
 
-@media only screen and (max-width: 1577px){
+@media only screen and (max-width: 1091px){
 
     .menuBtn{
         cursor: pointer;

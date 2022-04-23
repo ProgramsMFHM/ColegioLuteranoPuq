@@ -31,7 +31,7 @@ temporalHeader.innerHTML =`
                     <li class="subMenu__li"><a href="/working.html">Historia</a></li>
                     <li class="subMenu__li"><a href="/working.html">Iglesia Evangélica Luterana</a></li>
                     <li class="subMenu__li"><a href="/working.html">Información</a></li>
-                    <li class="subMenu__li"><a href="/sources/documents/pdf/PEI-colegio-luterano.pdf" target="0_blank">Proyecto Educativo Institucional</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/PEI Colegio Luterano.pdf" target="0_blank">Proyecto Educativo Institucional</a></li>
                 </ul>
             </li>
             <li class="menu__li"><a href="/funcionarios/funcionarios.html">Equipo de trabajo</a></li>

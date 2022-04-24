@@ -120,14 +120,14 @@ body{
     font-weight: bold;
 }
 
-@media only screen and (max-width: 1577px){
+@media only screen and (max-width: 1000px){
     .new__body{
         background-color: var(--backgruound-primary);
         margin: auto;
-        padding: 0 50px 25px;
+        padding: 15px 50px 25px;
         width: 100%;
         line-height: 1.5;
-        font-size: 25px;
+        font-size: 2rem;
         text-align: justify;
     }
 

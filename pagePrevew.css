@@ -20,7 +20,6 @@
     text-align: justify;
     color: #fff;
     position: absolute;
-    z-index: 1;
     display: flex;
     transform: translateY(-100%);
     transition: transform 0.7s, visibility 0.7s;

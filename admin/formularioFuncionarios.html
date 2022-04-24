@@ -2,6 +2,34 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/sources/Images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/sources/Images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/sources/Images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/sources/Images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/sources/Images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/sources/Images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/sources/Images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/sources/Images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/sources/Images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/sources/Images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/sources/Images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/sources/Images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/sources/Images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/sources/Images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/sources/Images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Organización del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Colegio, Luterano, Jose Davet 01050, Colegio Punta Arenas">
+    <meta name="description" content="Colegio Luterano de Punta Arenas, Jose Davet 01050, 'La Educación de los hijos es un servicio a y para Dios'">
+    <title>Admin</title>
+
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/8a7f27d14c.js" crossorigin="anonymous"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="/basic.css">
@@ -10,10 +38,10 @@
     <link rel="stylesheet" href="/footer.css">
     <link rel="stylesheet" href="/admin/form.css">
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
 
 </head>
 
@@ -23,37 +51,37 @@
 
     <main class="form__container">
 
-        <h1 class="title">Ingreso Formulario</H1>
+        <h1 class="title">Ingreso   Funcionarios</H1>
     
         <div class="form">
 
-        <img src="/sources/Images/shields/Escudo_colegio.webp" alt="Escudo Colegio Luterano">
-
-        <form action="guardar.php" method="Post" enctype="multipart/form-data">
-            
-            <div>
-                <label for="nomfun">Nombre de Funcionario:</label>
-                <input type="text" name="nomfun" id="nomfun">
-            </div>
-
-            <div>
-                <label for="cargo">Crago:</label>
-                <input type="text" name="cargo" id="cargo">
-            </div>
-
-            <div>
-                <label for="correo">Correo:</label>
-                <input type="text" name="correo" id="correo">
-            </div>
-
-            <div>
-                <label for="foto">Foto:</label>
-                <input type="file" name="foto" id="foto" accept="image/webp">
-            </div>
-
-            <input type="submit" name="guardar" value="guardar">
+            <form action="guardar.php" method="Post" enctype="multipart/form-data">
                 
-        </form>
+                <div>
+                    <label for="nomfun">Nombre de Funcionario:</label>
+                    <input type="text" name="nomfun" id="nomfun">
+                </div>
+
+                <div>
+                    <label for="cargo">Crago:</label>
+                    <input type="text" name="cargo" id="cargo">
+                </div>
+
+                <div>
+                    <label for="correo">Correo:</label>
+                    <input type="text" name="correo" id="correo">
+                </div>
+
+                <div>
+                    <label for="foto">Foto:</label>
+                    <input type="file" name="foto" id="foto" accept="image/webp">
+                </div>
+
+                <input type="submit" name="guardar" value="guardar">
+                    
+            </form>
+
+            <img src="/sources/Images/shields/Escudo_colegio.webp" alt="Escudo Colegio Luterano">
 
         </div>
 

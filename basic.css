@@ -28,8 +28,28 @@ body{
 }
 
 a{
+    transition: color 0.1s;
+}
+
+a:link{
+    color: var(--text-secundary);
+}
+
+a:visited{
+    color: var(--text-secundary);
+}
+
+a:hover{
+    color: var(--backgruound-quinary);
+}
+
+a:active{
+    color: rgb(160, 94, 160);
+}
+
+.nonStyleLink, .nonStyleLink:link, .nonStyleLink:hover, .nonStyleLink:active, .nonStyleLink:visited{
+    color: black;    
     text-decoration: none;
-    color: var(--text-primary);
 }
 
 /* Titulos */

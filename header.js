@@ -23,21 +23,21 @@ temporalHeader.innerHTML =`
 
     <nav class="menuContainer">
         <ul class="menu">
-            <li class="menu__li"><a href="/index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+            <li class="menu__li"><a href="/index.html" class="nonStyleLink"><i class="fa-solid fa-house"></i> Inicio</a></li>
             <li class="menu__li containerSubMenu">
-                <a href="#" class="subMenuBtn">¿Quienes somos?<i class="fa-solid fa-angle-down subMenuBtn__icon"></i></a>
+                <a href="#" class="subMenuBtn nonStyleLink">¿Quienes somos?<i class="fa-solid fa-angle-down subMenuBtn__icon"></i></a>
                 <ul class="subMenu">
-                    <li class="subMenu__li"><a href="/misionYVision/misionYVision.html">Misión y Visión</a></li>
-                    <li class="subMenu__li"><a href="/working.html">Historia</a></li>
-                    <li class="subMenu__li"><a href="/working.html">Iglesia Evangélica Luterana</a></li>
-                    <li class="subMenu__li"><a href="/working.html">Información</a></li>
-                    <li class="subMenu__li"><a href="/sources/documents/pdf/PEI Colegio Luterano.pdf" target="0_blank">Proyecto Educativo Institucional</a></li>
+                    <li class="subMenu__li"><a href="/misionYVision/misionYVision.html" class="nonStyleLink">Misión y Visión</a></li>
+                    <li class="subMenu__li"><a href="/working.html" class="nonStyleLink">Historia</a></li>
+                    <li class="subMenu__li"><a href="/working.html" class="nonStyleLink">Iglesia Evangélica Luterana</a></li>
+                    <li class="subMenu__li"><a href="/working.html" class="nonStyleLink">Información</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/PEI Colegio Luterano.pdf" target="0_blank" class="nonStyleLink">Proyecto Educativo Institucional</a></li>
                 </ul>
             </li>
-            <li class="menu__li"><a href="/funcionarios/funcionarios.html">Equipo de trabajo</a></li>
-            <li class="menu__li"><a href="/sources/documents/documents.html">Documentos</a></li>
-            <li class="menu__li"><a href="/news/news.html">Noticias</a></li>
-            <li class="menu__li"><a href="/working.html">Contacto</a></li>
+            <li class="menu__li"><a href="/funcionarios/funcionarios.html" class="nonStyleLink">Equipo de trabajo</a></li>
+            <li class="menu__li"><a href="/sources/documents/documents.html" class="nonStyleLink">Documentos</a></li>
+            <li class="menu__li"><a href="/news/news.html" class="nonStyleLink">Noticias</a></li>
+            <li class="menu__li"><a href="/working.html" class="nonStyleLink">Contacto</a></li>
         </ul>
     </nav>
 `;

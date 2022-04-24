@@ -66,26 +66,6 @@
     padding-bottom: 15px;
 }
 
-.link__item a{
-    transition: color 0.1s;
-}
-
-.link__item a:link{
-    color: var(--text-secundary);
-}
-
-.link__item a:visited{
-    color: var(--text-secundary);
-}
-
-.link__item a:hover{
-    color: var(--backgruound-quinary);
-}
-
-.link__item a:active{
-    color: rgb(160, 94, 160);
-}
-
 @media only screen and (max-width: 1577px){
 
     .usefulTools{

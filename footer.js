@@ -10,14 +10,14 @@ temporalFooter.innerHTML =`
     <div class="socialMedia">
             
         <div class="socialMedia__network">
-            <a href="https://www.facebook.com/Colegio-Luterano-de-Punta-Arenas-110910395603597/" target="0_blank">
+            <a href="https://www.facebook.com/Colegio-Luterano-de-Punta-Arenas-110910395603597/" target="0_blank" class="nonStyleLink">
                 <i class="fab fa-facebook"></i>
                 <p>Facebook</p>
             </a>
         </div>
 
         <div class="socialMedia__network">
-            <a href="https://goo.gl/maps/Y8bUwNEFcvtpjchEA" target="0_blank">
+            <a href="https://goo.gl/maps/Y8bUwNEFcvtpjchEA" target="0_blank" class="nonStyleLink">
                 <i class="fas fa-map"></i>
                 <p>Ubicación</p>
             </a>

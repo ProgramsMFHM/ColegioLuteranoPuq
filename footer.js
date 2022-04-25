@@ -23,6 +23,13 @@ temporalFooter.innerHTML =`
             </a>
         </div>
 
+        <div class="socialMedia__network">
+            <a href="https://www.youtube.com/channel/UCjMeSZLYmQDKa1b-K-3fUSA" target="0_blank" class="nonStyleLink">
+            <i class="fa-brands fa-youtube"></i>
+                <p>YouTube</p>
+            </a>
+        </div>
+
         </div>
 
         <div class="schoolMotto">

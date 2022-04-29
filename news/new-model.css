@@ -66,30 +66,6 @@ body{
     border-radius: 25px;
 }
 
-.new__image-left-small{
-    float: left;
-    margin-left: 0;
-    width: min(500px,50%);
-}
-
-.new__image-right-small{
-    float: right;
-    margin-right: 0;
-    width: min(500px,50%);
-}
-
-.new__image-left-big{
-    float: left;
-    margin-left: 0;
-    width: min(1500px,50%);
-}
-
-.new__image-right-big{
-    float: right;
-    margin-right: 0;
-    width: min(1500px,50%);
-}
-
 .new__image-fullWith{
     object-fit: cover;
     width: calc(100% - 30px);

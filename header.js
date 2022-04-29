@@ -37,6 +37,7 @@ temporalHeader.innerHTML =`
             <li class="menu__li"><a href="/funcionarios/funcionarios.html" class="nonStyleLink">Equipo de trabajo</a></li>
             <li class="menu__li"><a href="/sources/documents/documents.html" class="nonStyleLink">Documentos</a></li>
             <li class="menu__li"><a href="/news/news.html" class="nonStyleLink">Noticias</a></li>
+            <li class="menu__li"><a href="/videos.html" class="nonStyleLink">Videos</a></li>
             <li class="menu__li"><a href="/working.html" class="nonStyleLink">Contacto</a></li>
         </ul>
     </nav>

@@ -6,43 +6,14 @@ footer{
     flex-wrap: wrap;
 }
 
-.schoolMotto{
-    flex-grow: 1;
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.schoolMotto p{
-    align-self: center;
-    flex-grow: 2;
-    font-size: 1.7rem;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
-    color: var(--text-primary);
-    display: inline;
-}
-
-.shields{
-    padding: 0 15px;
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.schoolMotto img{
-    object-fit: contain;
-    max-width: 100px;
-}
-
 .socialMedia{
     flex-grow: 4;
     padding: 15px;
+    min-width: 25vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .socialMedia__network a{
@@ -66,6 +37,51 @@ footer{
 
 .socialMedia__network a:hover > i, .socialMedia__network a:hover > p{
     color: var(--text-secundary);
+}
+
+.textAndShields{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.schoolMotto{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.schoolMotto p{
+    align-self: center;
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: var(--text-primary);
+    display: inline;
+}
+
+.schoolMotto p:nth-child(2){
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 15px;
+}
+
+.shields{
+    flex-grow: 1;
+    padding: 15px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shields img{
+    object-fit: contain;
+    max-width: 100px;
 }
 
 @media only screen and (max-width: 972px){

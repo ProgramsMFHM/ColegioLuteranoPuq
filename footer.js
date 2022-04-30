@@ -30,10 +30,18 @@ temporalFooter.innerHTML =`
             </a>
         </div>
 
-        </div>
+    </div>
+
+    <div class="textAndShields">
 
         <div class="schoolMotto">
-        <p>"La Educación de los hijos es un servicio a y para Dios."</p>
+
+            <p>"La Educación de los hijos es un servicio a y para Dios."</p>
+
+            <p><a href="https://goo.gl/maps/Y8bUwNEFcvtpjchEA" target="0_blank" class="nonStyleLink"><i class="fa-solid fa-map"></i> Jose Davét 01050</a><a href="tel:+56612613172" class="nonStyleLink"><i class="fa-solid fa-phone"></i> 61 261 31 72</a></p>
+        
+        </div>
+
         <div class="shields">
 
             <a href="https://www.facebook.com/Iglesia-Evang%C3%A9lica-Luterana-en-Magallanes-129087137102459" target="0_blank">

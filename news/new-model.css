@@ -109,6 +109,7 @@ body{
 
     .new__image{
         width: 100%;
+        margin: 15px 0;
     }
 
     .new__end{

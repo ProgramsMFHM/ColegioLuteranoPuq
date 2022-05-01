@@ -1,7 +1,5 @@
 .pagePrevew{
     overflow: hidden;
-    margin: 15px;
-    border: 1px solid var(--text-primary);
     position: relative;
     transition: box-shadow 0.7s;
 }
@@ -21,16 +19,17 @@
     color: #fff;
     position: absolute;
     display: flex;
+    align-items: center;
     transform: translateY(-100%);
     transition: transform 0.7s, visibility 0.7s;
-}
-
-.pagePrevew__description p{
-    margin: auto;
 }
 
 .pagePrevew:hover > .pagePrevew__description{
     overflow: hidden;
     visibility: visible;
     transform: translate(0);
+}
+
+.pagePrevew img{
+    height: 315px;
 }

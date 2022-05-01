@@ -10,7 +10,7 @@ temporalHeader.innerHTML =`
     <a  href="/index.html" class="heading">
         <img src="/sources/Images/shields/Escudo_colegio.webp" alt="Escudo colegio luterano de Punta Arenas" class="heading__image">
         <div class="heading__text">
-            <h1 class="heading__text-1">Colegio Luterano</h1>
+            <p class="heading__text-1">Colegio Luterano</p>
             <p class="heading__text-2">Punta Arenas</p>
         </div>
     </a>
@@ -31,7 +31,7 @@ temporalHeader.innerHTML =`
                     <li class="subMenu__li"><a href="/working.html" class="nonStyleLink">Historia</a></li>
                     <li class="subMenu__li"><a href="/working.html" class="nonStyleLink">Iglesia Evangélica Luterana</a></li>
                     <li class="subMenu__li"><a href="/working.html" class="nonStyleLink">Información</a></li>
-                    <li class="subMenu__li"><a href="/sources/documents/pdf/PEI Colegio Luterano.pdf" target="0_blank" class="nonStyleLink">Proyecto Educativo Institucional</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/PEI Colegio Luterano.pdf" target="_blank" class="nonStyleLink">Proyecto Educativo Institucional</a></li>
                 </ul>
             </li>
             <li class="menu__li"><a href="/funcionarios/funcionarios.html" class="nonStyleLink">Equipo de trabajo</a></li>

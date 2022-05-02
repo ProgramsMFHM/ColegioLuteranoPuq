@@ -13,7 +13,6 @@
 .gallery__item{
     border: 1px solid var(--text-primary);
     width: min(560px,100%);
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,6 +30,7 @@
 }
 
 .gallery__text{
+    margin: auto;
     padding: 20px 0;
     text-align: center;
     font-size: 1.2rem;

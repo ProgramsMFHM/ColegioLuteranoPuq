@@ -6,6 +6,10 @@ const infoNoticias = [
     // ["Título de la noticia", "Descripción de la Noticia", "Ruta de la noticia", "Información de Foto"]
     // ["", "", "", ``]
 
+    ["Saludo día internacional del trabajador","El directorio de la <b>IELMA</b> saluda a los trabajadores y trabajadoras del <b>Colegio Luterano</b> por el día internacional del trabajador.","/sources/documents/informative-images/Saludo día del Trabajador 2022.webp", `src="/sources/Images/Imágen_colegio.webp" alt="Día internacional del trabajador"`],
+
+    ["Día del Libto en el Colegio Luterano","El <b>Colegio Luterano</b> celebra a lo grande el día del libro con la reapertura de la <b>Biblioteca CRA</b> y la actividad: '<b>Murales: Tipos de mundo y literatura</b>'.","/news/Abr252022/diaDelLibro.html", `src="/sources/Images/Colegio/Celebraciones/Día del libro 2022/Día del libro 2022 Biblioteca CRA.webp" style="object-position: center 60%;" alt="Estudiantes en Biblioteca CRA" style="object-position: center 65%;"`],
+
     ["Bingo en el Condominio de Viviendas Tuteladas","El Ministerio de Diaconía de la Iglesia Evangélica Luterana en Magallanes junto al profesor jefe <b>Rodolfo Muñoz</b>, estudiantes y apoderados del 4° año medio de nuestro Colegio realizaron una visita recreativa y de acompañamiento al Condominio de Viviendas Tuteladas para personas mayores en la Comuna de Punta Arenas.","/news/Abr232022/bingoCondominioDeViviendasTuteladas.html", `src="/sources/Images/Colegio/Colegio-luterano-en-el-exterior/Bingo Condominio De Viviendas Tuteladas.webp" style="object-position: center 40%;" alt="Bingo en el Condominio de Viviendas Tuteladas" style="object-position: center 65%;"`],
 
     ["Inicio de la semana del libro en el Colegio Luterano","El 22 de Abril ad portas del Día internacional del libro, los Chicos y Chicas del Taller de Teatro del Colegio Luterano, con la orientación del profesor <b>Mauricio Bahamondes</b>, dieron vida a diversos personajes de la Literatura.","/news/Abr222022/inicioSemanaDelLibro2022.html", `src="/sources/Images/Colegio/Celebraciones/Actores Inicio Semana del Libro.webp" style="object-position: center 15%;" alt="Participantes del taller de teatro (2022)"`],

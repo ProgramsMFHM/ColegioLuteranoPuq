@@ -36,12 +36,12 @@ body{
     padding-bottom: 10px;
 }
 
-.new__ol{
-    padding-left: 40px;
+.new__body ol, .new__body ul{
+    padding-left: 30px;
 }
 
-.new__ol li{
-    margin: 1rem 0;
+.new__body ol li, .new__body ul li{
+    padding: 10px 0;
 }
 
 .new__quote{

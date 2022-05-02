@@ -1,0 +1,93 @@
+.contactoHeading{
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactoHeading h1{
+    flex-grow: 1;
+}
+
+.contactoHeading img{
+    max-width: 125px;
+}
+
+.contactContainer{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+form div label{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+form div input, form div textarea{
+    padding: 20px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    transition: outline 0.1s, background-color 0.1s;
+}
+
+form div input:focus, form div textarea:focus{
+    outline: var(--text-secundary) 4px solid;
+    background-color: var(--backgruound-quaternary);
+}
+
+form div textarea{
+    resize: none;
+    height: 300px;
+}
+
+form div [type="submit"]{
+    background-color: var(--text-secundary);
+    color: var(--backgruound-primary);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+form div [type="submit"]:focus{
+    background-color: var(--text-secundary);
+    outline: none;
+}
+
+.contactContainer p{
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.contactContainer p a{
+    flex-grow: 1;
+}
+
+.contactContainer img{
+    width: 200px;
+    margin: auto;
+}

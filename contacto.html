@@ -37,9 +37,8 @@
     <link rel="stylesheet" href="/basic.css">
     <link rel="stylesheet" href="/footer.css">
     <link rel="stylesheet" href="/header.css">
-    <link rel="stylesheet" href="/galleries.css">
     <link rel="stylesheet" href="/menu.css">
-    <link rel="stylesheet" href="/pagePrevew.css">
+    <link rel="stylesheet" href="/formulario.css">
 
     <!-- Fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,19 +70,51 @@
 
     <main>
 
-        <h1 class="title">En construcción <i class="fa-solid fa-wrench"></i></h1>
+        <section class="contactoHeading">
 
-        <p class="informativeParagraph">Esta página se encuentra en construcción; estamos trabajando para tenerla lista lo antes posible.</p>
+            <h1 class="title">Contacto</h1>
+            
+            <img src="/sources/Images/shields/Escudo_colegio.webp" alt="Escudo Colegio Luterano">
 
-        <p class="informativeParagraph">Por el momento puede comunicarse con nosotros enviando un correo a: <a id="correo" href="mailto:contacto@luteranopuq.cl" style="color: var(--text-secundary)">contacto@luteranopuq.cl</a>.</p>
+        </section>
+        
+        <section class="contactContainer">
 
-        <div class="new__body">
+            <form action="">
 
-            <script src="/completar/completarNoticias.js"></script>
-            <script>lastNews()</script>
+                <div>
+                    <label for="nombre">Tu nombre: </label>
+                    <input type="text" id="nombre" required placeholder="Escriba aquí su nombre">
+                </div>
 
-        </div>
-    
+                <div>
+                    <label for="nombre">Tu correo: </label>
+                    <input type="text" id="correo" required placeholder="Escriba aquí su correo electrónico">
+                </div>
+        
+                <div>
+                    <label for="nombre">Asunto del mensaje: </label>
+                    <input type="text" id="asunto" placeholder="Escriba aquí el asunto de su menasje">
+                </div>
+
+                <div>
+                    <label for="nombre">Mensaje: </label>
+                    <textarea type="text" id="mensaje" required placeholder="Escriba aquí su menasje"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+
+            <p>
+                <a href="tel:+56612613172" class="nonStyleLink"><i class="fa-solid fa-phone"></i> 61 261 31 72</a>
+                <a href="tel:+56973522475" class="nonStyleLink"><i class="fa-solid fa-phone"></i> 9 7352 2475</a>
+            </p>
+
+        </section>
+
     </main>
 
     <script src="footer.js"></script>

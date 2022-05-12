@@ -70,6 +70,10 @@ form div [type="submit"]:focus{
     outline: none;
 }
 
+form div [type="submit"]:hover{
+    cursor: pointer;
+}
+
 .contactContainer p{
     width: 100%;
     text-align: center;

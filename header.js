@@ -29,7 +29,7 @@ temporalHeader.innerHTML =`
                 <ul class="subMenu">
                     <li class="subMenu__li"><a href="/misionYVision/misionYVision.html" class="nonStyleLink">Misión y Visión</a></li>
                     <li class="subMenu__li"><a href="/working.html" class="nonStyleLink">Historia</a></li>
-                    <li class="subMenu__li"><a href="/working.html" class="nonStyleLink">Iglesia Evangélica Luterana</a></li>
+                    <li class="subMenu__li"><a href="https://www.youtube.com/watch?v=x2YgY6dfnL8" target="_blank" class="nonStyleLink">Iglesia Evangélica Luterana</a></li>
                     <li class="subMenu__li"><a href="/working.html" class="nonStyleLink">Información</a></li>
                     <li class="subMenu__li"><a href="/sources/documents/pdf/PEI Colegio Luterano.pdf" target="_blank" class="nonStyleLink">Proyecto Educativo Institucional</a></li>
                 </ul>

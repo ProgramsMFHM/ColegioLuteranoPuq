@@ -36,12 +36,20 @@
     flex-direction: column;
 }
 
-.funcionario__mail{
-    transition: color 0.5s;
+.funcionario__mail:link{
+    color: var(--text-primary);
+}
+
+.funcionario__mail:visited{
+    color: var(--text-primary);
 }
 
 .funcionario__mail:hover{
     color: var(--text-secundary);
+}
+
+.funcionario__mail:active{
+    color: rgb(160, 94, 160);
 }
 
 .funcionario__name__icon, .funcionario__position__icon, .funcionario__mail__icon{

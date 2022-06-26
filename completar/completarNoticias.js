@@ -6,7 +6,11 @@ const infoNoticias = [
     // ["Título de la noticia", "Descripción de la Noticia", "Ruta de la noticia", "Información de Foto"]
     // ["", "", "", ``]
 
-    ["Trilogía Musical (Dia Nacional de las Artes)","EEn el marco de haberse celebrado el día nacional de las artes,se presentaron tres corrientes musicales en el colegio luterano junto a los profesores que imparten éstas disciplinas", "/news/2022/Mayo/diaNacionalDeLasArtes.html", `src="/sources/Images/Colegio/Celebraciones/Dia de las artes 2022/Bronces y Maderas 1.webp" style="object-position: center 40%;" alt="Orquesta Brass Luther Colegio Luterano"`],
+    ["Canastas de invierno para el sector de Agua Fresca","El <b>Ministerio de Diaconía</b> de la <b>Iglesia Evangélica Luterana</b> en conjunto con la <b>Comunidad Educativa del Colegio Luterano</b> realizó el día sábado 25 de Junio la <i>entrega de Canastas de Invierno - 2022</i> a personas mayores y familias del sector de <i>Agua Fresca</i> y <i>Punta Prat</i>.", "/news/2022/Junio/entregaDeCanastasAguaFresca.html", `src="/sources/Images/Colegio/Colegio-luterano-en-el-exterior/2022 Canastas de Invierno (terreno).webp" style="object-position: center 55%;" alt="Entrega canastas de invierno 2022"`],
+
+    ["Colegio Luterano celebra y conmemora el Día Nacional de los Pueblos Indígenas","Con un emotivo acto, la comunidad del Colegio Luterano, conmemoró y celebró el Día Nacional de los Pueblos Indígenas el día miércoles 22 de junio.", "/news/2022/Junio/diaNacionalDeLosPueblosOriginarios.html", `src="/sources/Images/Colegio/Celebraciones/Día Nacional de los Pueblos Indígenas 2022/Presentadores.webp" style="object-position: center 40%;" alt="Presentadores del evento por el día nacional de los pueblos indígenas"`],
+
+    ["Trilogía Musical (Dia Nacional de las Artes)","En el marco de haberse celebrado el día nacional de las artes,se presentaron tres corrientes musicales en el colegio luterano junto a los profesores que imparten éstas disciplinas", "/news/2022/Mayo/diaNacionalDeLasArtes.html", `src="/sources/Images/Colegio/Celebraciones/Dia de las artes 2022/Bronces y Maderas 1.webp" style="object-position: center 40%;" alt="Orquesta Brass Luther Colegio Luterano"`],
 
     ["Saludo día internacional del trabajador","El directorio de la <b>IELMA</b> saluda a los trabajadores y trabajadoras del <b>Colegio Luterano</b> por el día internacional del trabajador.","/sources/documents/informative-images/Saludo día del Trabajador 2022.webp", `src="/sources/Images/Imágen_colegio.webp" alt="Día internacional del trabajador"`],
 

@@ -34,6 +34,17 @@ temporalHeader.innerHTML =`
                     <li class="subMenu__li"><a href="/sources/documents/pdf/PEI Colegio Luterano.pdf" target="_blank" class="nonStyleLink">Proyecto Educativo Institucional</a></li>
                 </ul>
             </li>
+            <li class="menu__li containerSubMenu">
+                <a href="#" class="subMenuBtn nonStyleLink">Reglamento Interno<i class="fa-solid fa-angle-down subMenuBtn__icon"></i></a>
+                <ul class="subMenu">
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/Manual De Convivencia 2022.pdf" class="nonStyleLink">Reglamento interno y manual de convivencia 2022</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/Plan de gestión convivencia escolar 2022.pdf" class="nonStyleLink">Plan de Gestión convivencia escolar 2022</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/PEI Colegio Luterano.pdf" class="nonStyleLink">Proyecto Educativo Institucional</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/Reglamento de Evaluación y Promoción Escolar 2022.pdf" class="nonStyleLink">Reglamento de Evaluación y Promoción Escolar 2022</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/Reglamento de Admisión y Matrículas 2022.pdf" class="nonStyleLink">Reglamento de Admisión y Matrículas 2022</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/Reglamento de Becas 2022.pdf" class="nonStyleLink">Reglamento de Becas 2022</a></li>
+                </ul>
+            </li>
             <li class="menu__li"><a href="/funcionarios/funcionarios.html" class="nonStyleLink">Equipo de trabajo</a></li>
             <li class="menu__li"><a href="/sources/documents/documents.html" class="nonStyleLink">Documentos</a></li>
             <li class="menu__li"><a href="/news/news.html" class="nonStyleLink">Noticias</a></li>

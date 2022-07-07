@@ -3,7 +3,7 @@ let funcionarios = document.createDocumentFragment(); //Creo un fragmento HTML i
 
 let infoFuncionarios = [
     ["Claudia Vera","Directora","claudia.vera@luteranopuq.cl", "/funcionarios/Claudia Vera/Claudia Vera.webp"],
-    ["Karen Barria","Encargada de UTP","karen.barria@luteranopuq.cl", "/funcionarios/Karen Barria/Karen Barria.webp"],
+    ["Karen Barria","Coordinadora PIE","karen.barria@luteranopuq.cl", "/funcionarios/Karen Barria/Karen Barria.webp"],
     ["Pablo Ríos","Sostenedor","pablo.rios@luteranopuq.cl", "/funcionarios/Pablo Ríos/Pablo Ríos.webp"],
     ["Pedro Levio","Inspector General","pedro.levio@luteranopuq.cl", "/funcionarios/Pedro Levio/Pedro Levio.webp"],
     ["Rocio Morales","Capellán","rocio.morales@luteranopuq.cl", "/funcionarios/Rocío Morales/Rocío Morales.webp"],
@@ -36,7 +36,7 @@ let infoFuncionarios = [
     ["Saul Soto","Inspector Ed. Media","saul.soto@luteranopuq.cl", "/funcionarios/Saul Soto/Saul Soto.webp"],
     ["Soledad Peñaloza","Recaudacion","soledad.penaloza@luteranopuq.cl", "/funcionarios/Soledad Peñaloza/Soledad Peñaloza.webp"],
     ["Teo Rios","Docente Matemáticas","teo.rios@luteranopuq.cl", "/funcionarios/Teo Rios/Teo Rios.webp"],
-    ["Valeria Ormazabal","Recurso Humano","valeria.ormazabal@luteranopuq.cl", "/funcionarios/Valeria Ormazabal/Valeria Ormazabal.webp"],
+    ["Valeria Ormazabal","Encargada de personal","valeria.ormazabal@luteranopuq.cl", "/funcionarios/Valeria Ormazabal/Valeria Ormazabal.webp"],
     ["Veronica Arancibia","Docente Párvulos","veronica.arancibia@luteranopuq.cl", "/funcionarios/Veronica Arancibia/Veronica Arancibia.webp"],
     ["Viviana Cheuque","Contabilidad","viviana.cheuque@luteranopuq.cl", "/funcionarios/Viviana Cheuque/Viviana Cheuque.webp"],
     ["Walezka Sepúlveda","Encargada del CRA","waleska.sepulveda@luteranopuq.cl","/funcionarios/Walezka Sepúlveda/Walezka Sepúlveda.webp"]

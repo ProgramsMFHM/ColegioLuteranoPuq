@@ -31,7 +31,6 @@ let infoFuncionarios = [
     ["Nuria Ulloa","Auxiliar","nuria.ulloa@luteranopuq.cl", "/funcionarios/Nuria Ulloa/Nuria Ulloa.webp"],
     ["Oriana Villegas","Finanzas","oriana.villegas@luteranopuq.cl", "/funcionarios/Oriana Villegas/Oriana Villegas.webp"],
     ["Paula Bahamonde","Docente Ed. Fisica","paula.bahamonde@luteranopuq.cl", "/funcionarios/Paula Bahamonde/Paula Bahamonde.webp"],
-    ["Rodolfo Muñoz","Docente Artes","rodolfo.munoz@luteranopuq.cl", "/funcionarios/Rodolfo Muñoz/Rodolfo Muñoz.webp"],
     ["Rodrigo Oyarzun","Psicopedagogo","rodrigo.oyarzun@luteranopuq.cl", "/funcionarios/Rodrigo Oyarzun/Rodrigo Oyarzun.webp"],
     ["Saul Soto","Inspector Ed. Media","saul.soto@luteranopuq.cl", "/funcionarios/Saul Soto/Saul Soto.webp"],
     ["Soledad Peñaloza","Recaudacion","soledad.penaloza@luteranopuq.cl", "/funcionarios/Soledad Peñaloza/Soledad Peñaloza.webp"],

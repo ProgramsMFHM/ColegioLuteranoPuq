@@ -17,7 +17,7 @@ let infoFuncionarios = [
     ["Cristina Contreras","Docente Lenguaje","cristina.contreras@luteranopuq.cl", "/funcionarios/Cristina Contreras/Cristina Contreras.webp"],
     ["Daniela Ojeda","Docente Lenguaje","daniela.ojeda@luteranopuq.cl", "/funcionarios/Daniela Ojeda/Daniela Ojeda.webp"],
     ["Felipe Bravo","Docente Historia","felipe.bravo@luteranopuq.cl", "/funcionarios/Felipe Bravo/Felipe Bravo.webp"],
-    ["Filomena Barria","Auxiliar","filomena.barria@luteranopuq.cl", "/funcionarios/Filomena Barria/Filomena Barria.webp"],
+    ["Filomena Ojeda","Auxiliar","filomena.ojeda@luteranopuq.cl", "/funcionarios/Filomena Barria/Filomena Barria.webp"],
     ["Frida Gonzalez","Terapeuta Ocupacional","frida.gonzalez@luteranopuq.cl", "/funcionarios/Frida Gonzalez/Frida Gonzalez.webp"],
     ["Gabriela Etcheverry","Docente Ciencias","gabriela.etcheverry@luteranopuq.cl", "/funcionarios/Gabriela Etcheverry/Gabriela Etcheverry.webp"],
     ["Isabel González","Tecnico en Educacion Parvularia","nora.gonzalez@luteranopuq.cl", "/funcionarios/Isabel González/Isabel González.webp"],

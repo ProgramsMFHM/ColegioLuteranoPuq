@@ -6,6 +6,8 @@ const infoNoticias = [
     // ["Título de la noticia", "Descripción de la Noticia", "Ruta de la noticia", "Información de Foto"]
     // ["", "", "", ``]
 
+    ["Jornada de Retiro y Convivencia Escolar -  7º  Básico",`El 08 de septiembre, se realizó la <i>"Jornada de Retiro y Convivencia Escolar"</i>, con 7º  Básico su y profesora Jefe <b>Paula Bahamonde</b>.`, "/news/2022/Septiembre/RetiroYConvivenciaEscolar7Básico.html", `src="/sources/Images/Colegio/Actividades-de-integración/Convivencia escolar 7B 2022/Curso completo.webp" alt="7° Básico, Convivencia escolar"`],
+
     ["Colegio Luterano en la Feria de Matemáticas organiazda por el Charles Darwin","Una delegación del colegio luterano junto a la docente <b>Amelia Caucamán</b> participaron en la <i>'Feria de matemáticas'</i> organizada por el establecimiento educativo <b>Charles Darwin</b>.", "/news/2022/Septiembre/DesfileBernardoOHiggins.html", `src="/sources/Images/Colegio/Colegio-luterano-en-el-exterior/Feria de Matemáticas Darwin 2022/premio.webp" style="object-position: center 30%;" alt="Reconocimiento obtenido en la feria"`],
 
     ["Conmemoración del 244° Aniversario del Natalicio del Libertador Bernardo O’Higgins","Luego de varios años, el Colegio Luterano fue invitado a participar el 20 de agosto del Desfile Institucional con motivo de la Conmemoración del <b>244° Aniversario</b> del Natalicio del <b>Libertador Bernardo O’Higgins Riquelme</b>.", "/news/2022/Agosto/DesfileBernardoOHiggins.html", `src="/sources/Images/Colegio/Colegio-luterano-en-el-exterior/244 Desfile por el natalicio de Bernardo OHiggins/abanderados.webp" style="object-position: center 40%;" alt="Abanderados del desfile"`],

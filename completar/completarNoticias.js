@@ -6,6 +6,8 @@ const infoNoticias = [
     // ["Título de la noticia", "Descripción de la Noticia", "Ruta de la noticia", "Información de Foto"]
     // ["", "", "", ``]
 
+    ["Jornada de Retiro y Convivencia Escolar -  2º  Medio",`El 25 de octubre la <b>Capellán</b> del Colegio realizó la Jornada de <i>Retiro y Convivencia Escolar</i> con <i>2º Medio</i> <b>“Eres tu o soy yo?”</b>.`, "/news/2022/Octubre/RetiroYConvivenciaEscolar2Medio.html", `src="/sources/Images/Colegio/Actividades-de-integración/Convivencia escolar 2M 2022/Curso completo.webp" alt="2° Medio, Convivencia escolar" style="object-position: center 31%;"`],
+
     ["Jornada de Retiro y Convivencia Escolar -  7º  Básico",`El 08 de septiembre, se realizó la <i>"Jornada de Retiro y Convivencia Escolar"</i>, con 7º  Básico su y profesora Jefe <b>Paula Bahamonde</b>.`, "/news/2022/Septiembre/RetiroYConvivenciaEscolar7Básico.html", `src="/sources/Images/Colegio/Actividades-de-integración/Convivencia escolar 7B 2022/Curso completo.webp" alt="7° Básico, Convivencia escolar"`],
 
     ["Colegio Luterano en la Feria de Matemáticas organiazda por el Charles Darwin","Una delegación del colegio luterano junto a la docente <b>Amelia Caucamán</b> participaron en la <i>'Feria de matemáticas'</i> organizada por el establecimiento educativo <b>Charles Darwin</b>.", "/news/2022/Septiembre/DesfileBernardoOHiggins.html", `src="/sources/Images/Colegio/Colegio-luterano-en-el-exterior/Feria de Matemáticas Darwin 2022/premio.webp" style="object-position: center 30%;" alt="Reconocimiento obtenido en la feria"`],

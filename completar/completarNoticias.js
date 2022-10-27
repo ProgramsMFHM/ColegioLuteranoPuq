@@ -7,6 +7,8 @@ const infoNoticias = [
     // ["", "", "", ``]
 
     ["Jornada de Retiro y Convivencia Escolar -  2º  Medio",`El 25 de octubre la <b>Capellán</b> del Colegio realizó la Jornada de <i>Retiro y Convivencia Escolar</i> con <i>2º Medio</i> <b>“Eres tu o soy yo?”</b>.`, "/news/2022/Octubre/RetiroYConvivenciaEscolar2Medio.html", `src="/sources/Images/Colegio/Actividades-de-integración/Convivencia escolar 2M 2022/Curso completo.webp" alt="2° Medio, Convivencia escolar" style="object-position: center 31%;"`],
+    
+    ["Jornadas de Rehabilitación Magallanes - 2022",`En el marco de la<b> 35° versión de las Jornadas por la Rehabilitación</b>, liderada por el <i>Club de Leones Punta Arenas Cruz del Sur</i>, los distintos estamentos que componen la comunidad <b>Colegio Luterano</b>, se hicieron presentes el sábado 22 de octubre, para hacer entrega de la suma recaudada, fruto del trabajo, la unidad y el espíritu solidario que nos caracteriza.`, "/news/2022/Octubre/JornadasDeRehabilitación.html", `src="/sources/Images/Colegio/Colegio-luterano-en-el-exterior/Jornadas de Rehabilitación Magallanes (35)/Colegios.webp" alt="Presentación de los colegios en las jornadas de rehabilitación" style="object-position: center 25%;"`],
 
     ["Jornada de Retiro y Convivencia Escolar -  7º  Básico",`El 08 de septiembre, se realizó la <i>"Jornada de Retiro y Convivencia Escolar"</i>, con 7º  Básico su y profesora Jefe <b>Paula Bahamonde</b>.`, "/news/2022/Septiembre/RetiroYConvivenciaEscolar7Básico.html", `src="/sources/Images/Colegio/Actividades-de-integración/Convivencia escolar 7B 2022/Curso completo.webp" alt="7° Básico, Convivencia escolar"`],
 

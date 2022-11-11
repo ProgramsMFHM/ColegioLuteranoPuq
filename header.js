@@ -43,7 +43,7 @@ temporalHeader.innerHTML =`
                     <li class="subMenu__li"><a href="/sources/documents/pdf/PEI Colegio Luterano.pdf" class="nonStyleLink">Proyecto educativo institucional</a></li>
                     <li class="subMenu__li"><a href="/sources/documents/pdf/Reglamento de Evaluación y Promoción Escolar 2022.pdf" class="nonStyleLink">Reglamento de evaluación y promoción escolar 2022</a></li>
                     <li class="subMenu__li"><a href="/sources/documents/pdf/Reglamento de Admisión y Matrículas 2022.pdf" class="nonStyleLink">Reglamento de admisión y matrículas 2022</a></li>
-                    <li class="subMenu__li"><a href="/sources/documents/pdf/Reglamento de Becas 2022.pdf" class="nonStyleLink">Reglamento de becas 2022</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/Reglamento de Becas 2023.pdf" class="nonStyleLink">Reglamento de becas 2023</a></li>
                 </ul>
             </li>
             <li class="menu__li"><a href="/funcionarios/funcionarios.html" class="nonStyleLink">Equipo de trabajo</a></li>

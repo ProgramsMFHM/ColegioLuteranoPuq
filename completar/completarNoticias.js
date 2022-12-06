@@ -6,6 +6,8 @@ const infoNoticias = [
     // ["Título de la noticia", "Descripción de la Noticia", "Ruta de la noticia", "Información de Foto"]
     // ["", "", "", ``]
 
+    ["Primeras Comuniones en el Colegio Luterano",`El Domingo 4 de diciembre del 2022, alumnos y alumnas del Colegio Luterano celebraron su Primera Comunión.`, "/news/2022/Diciembre/PrimerasComuniones.html",`src="/sources/Images/Colegio/Reuniones-y-cultos/PrimerasComuniones2022/General.webp" alt="Alumnos con su diploma de primera Comunión" style="object-position: center 34%;"`],
+
     ["Licenciatura Cuarto Medio 2022",`El pasado viernes, 18 de noviembre, con profunda emoción, como Comunidad Colegio Luterano, hemos despedido a una nueva generación de estudiantes que han obtenido con éxito su licencia que los certifica como egresados de Enseñanza Media.`, "/news/2022/Noviembre/Licenciatura4toMedio.html",`src="/sources/Images/Colegio/Celebraciones/Licenciaturas 2022/4toMedio/Generación2022.webp" alt="Generación 2022" style="object-position: center 25%;"`],
 
     ["Culto de Acción de Gracias por Alumnos de Octavo Básico",`El domingo 20 de noviembre se celebró el Culto de Acción de Gracias por el paso de cada uno de nuestros Alumnos y Alumnas de 8º Básico por las aulas de Educación Básica.`, "/news/2022/Noviembre/Culto8B2022.html",`src="/sources/Images/Colegio/Reuniones-y-cultos/Culto8Basico2022/Culto.webp" alt="Culto 8° Básico"`],

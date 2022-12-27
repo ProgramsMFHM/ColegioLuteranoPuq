@@ -6,6 +6,8 @@ const infoNoticias = [
     // ["Título de la noticia", "Descripción de la Noticia", "Ruta de la noticia", "Información de Foto"]
     // ["", "", "", ``]
 
+    ["Lista Útiles Escolares 2023",`Conozca los útiles escolares que nescesitará en el año 2023.`, "/sources/documents/utiles.html",`src="/sources/Images/Colegio/estudiantesEnClase2.webp" alt="Estudiantes en clase" style="object-position: center 30%;"`],
+
     ["Primeras Comuniones en el Colegio Luterano",`El Domingo 4 de diciembre del 2022, alumnos y alumnas del Colegio Luterano celebraron su Primera Comunión.`, "/news/2022/Diciembre/PrimerasComuniones.html",`src="/sources/Images/Colegio/Reuniones-y-cultos/PrimerasComuniones2022/General.webp" alt="Alumnos con su diploma de primera Comunión" style="object-position: center 34%;"`],
 
     ["Licenciatura Cuarto Medio 2022",`El pasado viernes, 18 de noviembre, con profunda emoción, como Comunidad Colegio Luterano, hemos despedido a una nueva generación de estudiantes que han obtenido con éxito su licencia que los certifica como egresados de Enseñanza Media.`, "/news/2022/Noviembre/Licenciatura4toMedio.html",`src="/sources/Images/Colegio/Celebraciones/Licenciaturas 2022/4toMedio/Generación2022.webp" alt="Generación 2022" style="object-position: center 25%;"`],

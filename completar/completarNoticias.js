@@ -6,6 +6,8 @@ const infoNoticias = [
     // ["Título de la noticia", "Descripción de la Noticia", "Ruta de la noticia", "Información de Foto"]
     // ["", "", "", ``]
 
+    ["Uniforme Escolar 2023",`Conozca el uniforme escolar para el año 2023.`, "/sources/documents/pdf/Uniforme Escolar Colegio Luterano.pdf",`src="/sources/Images/Colegio/estudiantesEnClase1.webp" alt="Estudiantes en clase"`],
+
     ["Lista Útiles Escolares 2023",`Conozca los útiles escolares que nescesitará en el año 2023.`, "/sources/documents/utiles.html",`src="/sources/Images/Colegio/estudiantesEnClase2.webp" alt="Estudiantes en clase" style="object-position: center 30%;"`],
 
     ["Primeras Comuniones en el Colegio Luterano",`El Domingo 4 de diciembre del 2022, alumnos y alumnas del Colegio Luterano celebraron su Primera Comunión.`, "/news/2022/Diciembre/PrimerasComuniones.html",`src="/sources/Images/Colegio/Reuniones-y-cultos/PrimerasComuniones2022/General.webp" alt="Alumnos con su diploma de primera Comunión" style="object-position: center 34%;"`],

@@ -6,6 +6,10 @@ const infoNoticias = [
     // ["Título de la noticia", "Descripción de la Noticia", "Ruta de la noticia", "Información de Foto"]
     // ["", "", "", ``]
 
+    ["Culto para Funcionarios del Colegio Luterano",` La Iglesia Evangélica Luterana en Magallanes dio la bienvenida a los funcionarios del Colegio Luterano en un emotivo culto dominical el pasado domingo 5 de marzo.`, "/news/2023/Marzo/cultoDuncionariosMarzo.html",`src="/sources/Images/Colegio/Reuniones-y-cultos/2023/Cultos/FuncionariosMarzo/principal.webp" style="object-position: 40% center;" alt="Profesores de Primer Cilo Básico en el culto para los Funcionarios"`],
+
+    ["Retorno a clases 2023",`El Colegio Luterano de Punta Arenas inició su año escolar con gran entusiasmo el pasado miércoles 1° de Marzo.`, "/news/2023/Marzo/inicioDeClases.html",`src="/sources/Images/Colegio/Reuniones-y-cultos/2023/Devocionales/InicioDeAnio/principal.webp" style="object-position: center 30%;" alt="Estudiantes en la devocional de inicio de año"`],
+
     ["Uniforme Escolar 2023",`Conozca el uniforme escolar para el año 2023.`, "/sources/documents/pdf/Uniforme Escolar Colegio Luterano.pdf",`src="/sources/Images/Colegio/estudiantesEnClase1.webp" alt="Estudiantes en clase"`],
 
     ["Lista Útiles Escolares 2023",`Conozca los útiles escolares que nescesitará en el año 2023.`, "/sources/documents/utiles.html",`src="/sources/Images/Colegio/estudiantesEnClase2.webp" alt="Estudiantes en clase" style="object-position: center 30%;"`],

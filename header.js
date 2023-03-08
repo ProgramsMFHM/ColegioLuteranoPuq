@@ -37,7 +37,7 @@ temporalHeader.innerHTML =`
             <li class="menu__li containerSubMenu">
                 <a href="#" class="subMenuBtn nonStyleLink">Reglamento Interno<i class="fa-solid fa-angle-down subMenuBtn__icon"></i></a>
                 <ul class="subMenu">
-                    <li class="subMenu__li"><a href="/sources/documents/pdf/Manual De Convivencia 2022.pdf" class="nonStyleLink">Reglamento interno y manual de convivencia 2022</a></li>
+                    <li class="subMenu__li"><a href="/sources/documents/pdf/Manual De Convivencia 2023.pdf" class="nonStyleLink">Reglamento interno y manual de convivencia 2023</a></li>
                     <li class="subMenu__li"><a href="/sources/documents/pdf/Protocolo de actuación maltrato de adulto a alumno.pdf" class="nonStyleLink">Protocolo de actuación maltrato de adulto a alumno</a></li>
                     <li class="subMenu__li"><a href="/sources/documents/pdf/Plan de gestión convivencia escolar 2022.pdf" class="nonStyleLink">Plan de gestión convivencia escolar 2022</a></li>
                     <li class="subMenu__li"><a href="/sources/documents/pdf/PEI Colegio Luterano.pdf" class="nonStyleLink">Proyecto educativo institucional</a></li>
